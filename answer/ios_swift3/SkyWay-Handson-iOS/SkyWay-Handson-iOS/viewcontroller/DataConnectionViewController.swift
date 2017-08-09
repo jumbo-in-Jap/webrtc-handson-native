@@ -51,7 +51,7 @@ class DataConnectionViewController: UIViewController {
                 self._id = peerId
                 // UI更新のためメインスレッドで実行
                 DispatchQueue.main.async {
-                    self.idLabel.text = "your ID: \n\(self._id!)"
+                    self.idLabel.text = "your ID: \(peerId)"
                 }
             }
         })
