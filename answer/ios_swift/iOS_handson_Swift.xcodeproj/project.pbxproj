@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FE248E51F3AB79A0048087A /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE248E41F3AB79A0048087A /* SkyWay.framework */; };
 		A866684A1CA15F7D001CCECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86668491CA15F7D001CCECD /* AppDelegate.swift */; };
 		A866684C1CA15F7D001CCECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866684B1CA15F7D001CCECD /* ViewController.swift */; };
 		A866684F1CA15F7D001CCECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A866684D1CA15F7D001CCECD /* Main.storyboard */; };
@@ -30,7 +31,6 @@
 		A86B7B051CA1A39700EA9575 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B7B041CA1A39700EA9575 /* libstdc++.6.0.9.tbd */; };
 		A86B7B071CA1A3A400EA9575 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B7B061CA1A3A400EA9575 /* libsqlite3.tbd */; };
 		A86B7B091CA1A3B000EA9575 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B7B081CA1A3B000EA9575 /* libicucore.tbd */; };
-		A8EB19611CA8AEBD00867C6E /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EB19601CA8AEBD00867C6E /* SkyWay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FE248E41F3AB79A0048087A /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyWay.framework; path = iOS_handon_Swift/SkyWay.framework; sourceTree = "<group>"; };
 		A86668461CA15F7D001CCECD /* iOS_handson_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_handson_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86668491CA15F7D001CCECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A866684B1CA15F7D001CCECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		A86B7B041CA1A39700EA9575 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		A86B7B061CA1A3A400EA9575 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		A86B7B081CA1A3B000EA9575 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		A8EB19601CA8AEBD00867C6E /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,6 @@
 			files = (
 				A86B7B091CA1A3B000EA9575 /* libicucore.tbd in Frameworks */,
 				A86B7B071CA1A3A400EA9575 /* libsqlite3.tbd in Frameworks */,
-				A8EB19611CA8AEBD00867C6E /* SkyWay.framework in Frameworks */,
 				A86B7B051CA1A39700EA9575 /* libstdc++.6.0.9.tbd in Frameworks */,
 				A86B7B031CA1A38900EA9575 /* libc++.tbd in Frameworks */,
 				A86B7B011CA1A35200EA9575 /* SystemConfiguration.framework in Frameworks */,
@@ -100,6 +99,7 @@
 				A86B7AFB1CA1A33300EA9575 /* CoreGraphics.framework in Frameworks */,
 				A86B7AF91CA1A32A00EA9575 /* VideoToolbox.framework in Frameworks */,
 				A86B7AF71CA1A31F00EA9575 /* CoreVideo.framework in Frameworks */,
+				6FE248E51F3AB79A0048087A /* SkyWay.framework in Frameworks */,
 				A86B7AF51CA1A31500EA9575 /* CoreMedia.framework in Frameworks */,
 				A86B7AF31CA1A30D00EA9575 /* AVFoundation.framework in Frameworks */,
 				A86B7AF11CA1A30600EA9575 /* AudioToolbox.framework in Frameworks */,
@@ -126,7 +126,7 @@
 		A866683D1CA15F7D001CCECD = {
 			isa = PBXGroup;
 			children = (
-				A8EB19601CA8AEBD00867C6E /* SkyWay.framework */,
+				6FE248E41F3AB79A0048087A /* SkyWay.framework */,
 				A86B7B081CA1A3B000EA9575 /* libicucore.tbd */,
 				A86B7B061CA1A3A400EA9575 /* libsqlite3.tbd */,
 				A86B7B041CA1A39700EA9575 /* libstdc++.6.0.9.tbd */,
@@ -474,6 +474,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS_handon_Swift",
 				);
 				INFOPLIST_FILE = iOS_handon_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -483,6 +484,7 @@
 				PRODUCT_NAME = iOS_handson_Swift;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_handon_Swift_Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -496,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS_handon_Swift",
 				);
 				INFOPLIST_FILE = iOS_handon_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -505,6 +508,7 @@
 				PRODUCT_NAME = iOS_handson_Swift;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_handon_Swift_Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

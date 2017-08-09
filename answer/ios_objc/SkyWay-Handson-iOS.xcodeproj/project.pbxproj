@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8F44033F22F38F35C747F4 /* libPods-SkyWay-Handson-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F148A7D403137EB6EA23D844 /* libPods-SkyWay-Handson-iOS.a */; };
 		3D1DDB5D1A2585CC0052B79C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DDB5C1A2585CC0052B79C /* AudioToolbox.framework */; };
 		3D1DDB6F1A25B98E0052B79C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1DDB6E1A25B98E0052B79C /* AVFoundation.framework */; };
 		3D9398EE19D9391100AEE6B1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9398ED19D9391100AEE6B1 /* CoreMedia.framework */; };
@@ -21,7 +22,7 @@
 		3DDB8D951A314AFD00FA2C4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9398EB19D9390B00AEE6B1 /* CoreGraphics.framework */; };
 		3DDB8D971A314B2F00FA2C4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDB8D961A314B2F00FA2C4A /* SystemConfiguration.framework */; };
 		3DDB8D9B1A314C3C00FA2C4A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDB8D9A1A314C3C00FA2C4A /* GLKit.framework */; };
-		A831B7551C931E5F0087CCAF /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A831B7541C931E5F0087CCAF /* SkyWay.framework */; };
+		6FE248A91F3AB4E60048087A /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE248A81F3AB4E60048087A /* SkyWay.framework */; };
 		CA30CBFE1AE4E53A00A78322 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DAABD7A19D5644200C765E1 /* LaunchScreen.xib */; };
 		CA30CBFF1AE4E53C00A78322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAABD7519D5644200C765E1 /* Main.storyboard */; };
 		CA6859CB1B1BE47200B9577E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6859CA1B1BE47200B9577E /* image.png */; };
@@ -57,7 +58,9 @@
 		3DD0C75A19E7B6BD006F9103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DDB8D961A314B2F00FA2C4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3DDB8D9A1A314C3C00FA2C4A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		A831B7541C931E5F0087CCAF /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
+		57F061919A27923C3D0E9F74 /* Pods-SkyWay-Handson-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyWay-Handson-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE248A81F3AB4E60048087A /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyWay.framework; path = "SkyWay-iOS-Sample/frameworks/SkyWay.framework"; sourceTree = "<group>"; };
+		B74605232E3C2CF54732A236 /* Pods-SkyWay-Handson-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyWay-Handson-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		CA6859CA1B1BE47200B9577E /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		CAC6AFC41C27B4DF002C856D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		CAC6AFC61C27B4FA002C856D /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -65,6 +68,7 @@
 		CAC6AFCA1C27B50F002C856D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		CAD2621A1B8E9EAF000D4782 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		CAD2621B1B8E9EAF000D4782 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F148A7D403137EB6EA23D844 /* libPods-SkyWay-Handson-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyWay-Handson-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +86,11 @@
 				3D1DDB6F1A25B98E0052B79C /* AVFoundation.framework in Frameworks */,
 				3DDB8D951A314AFD00FA2C4A /* CoreGraphics.framework in Frameworks */,
 				3D9398EE19D9391100AEE6B1 /* CoreMedia.framework in Frameworks */,
-				A831B7551C931E5F0087CCAF /* SkyWay.framework in Frameworks */,
+				6FE248A91F3AB4E60048087A /* SkyWay.framework in Frameworks */,
 				3DD0C75B19E7B6BD006F9103 /* Foundation.framework in Frameworks */,
 				3DDB8D9B1A314C3C00FA2C4A /* GLKit.framework in Frameworks */,
 				3DDB8D971A314B2F00FA2C4A /* SystemConfiguration.framework in Frameworks */,
+				1D8F44033F22F38F35C747F4 /* libPods-SkyWay-Handson-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +103,8 @@
 				3DF7608D19D910FC0084F124 /* Framework */,
 				3DAABD6919D5644200C765E1 /* Products */,
 				3DAABD6A19D5644200C765E1 /* SkyWay-iOS-Sample */,
+				462BC348AE487F5571D7948C /* Pods */,
+				D9A5FD9A4540FD170A38538C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +150,7 @@
 		3DF7608D19D910FC0084F124 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				A831B7541C931E5F0087CCAF /* SkyWay.framework */,
+				6FE248A81F3AB4E60048087A /* SkyWay.framework */,
 				CAC6AFCA1C27B50F002C856D /* libstdc++.6.0.9.tbd */,
 				CAC6AFC81C27B505002C856D /* libsqlite3.tbd */,
 				CAC6AFC61C27B4FA002C856D /* libicucore.tbd */,
@@ -161,6 +168,23 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		462BC348AE487F5571D7948C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57F061919A27923C3D0E9F74 /* Pods-SkyWay-Handson-iOS.debug.xcconfig */,
+				B74605232E3C2CF54732A236 /* Pods-SkyWay-Handson-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9A5FD9A4540FD170A38538C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F148A7D403137EB6EA23D844 /* libPods-SkyWay-Handson-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DAABD8B19D5644200C765E1 /* Build configuration list for PBXNativeTarget "SkyWay-Handson-iOS" */;
 			buildPhases = (
+				D6439110A85951C63D2B9F7B /* 📦 Check Pods Manifest.lock */,
 				3DAABD6419D5644200C765E1 /* Sources */,
 				3DAABD6519D5644200C765E1 /* Frameworks */,
 				3DAABD6619D5644200C765E1 /* Resources */,
+				0FB36BE8C091F7C815E638E0 /* 📦 Embed Pods Frameworks */,
+				00631FF0F1A23D31E997A15C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,7 +219,6 @@
 				TargetAttributes = {
 					3DAABD6719D5644200C765E1 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = YP76R8KFZE;
 					};
 				};
 			};
@@ -227,6 +253,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00631FF0F1A23D31E997A15C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FB36BE8C091F7C815E638E0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6439110A85951C63D2B9F7B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DAABD6419D5644200C765E1 /* Sources */ = {
@@ -351,11 +425,13 @@
 		};
 		3DAABD8C19D5644200C765E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F061919A27923C3D0E9F74 /* Pods-SkyWay-Handson-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,6 +439,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SkyWay-iOS-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -370,17 +447,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ntt.SkyWay-iOS-Sample";
 				PRODUCT_NAME = "SkyWay-Handson-iOS";
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 arm64";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
 		};
 		3DAABD8D19D5644200C765E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74605232E3C2CF54732A236 /* Pods-SkyWay-Handson-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +467,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SkyWay-iOS-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -395,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ntt.SkyWay-iOS-Sample";
 				PRODUCT_NAME = "SkyWay-Handson-iOS";
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 arm64";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
 		};
