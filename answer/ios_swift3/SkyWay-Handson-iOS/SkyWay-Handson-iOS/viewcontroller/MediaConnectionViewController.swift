@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SkyWay
 
 class MediaConnectionViewController: UIViewController {
 
@@ -35,7 +36,6 @@ class MediaConnectionViewController: UIViewController {
         // Peerオブジェクトのインスタンスを生成
         _peer = SKWPeer(options: option)
         
-        
         // MARK: 2.2．接続成功・失敗
         
         //コールバックを登録（ERROR)
@@ -60,12 +60,16 @@ class MediaConnectionViewController: UIViewController {
         // MARK: 2.3．メディアの取得
         
         //メディアを取得
-        SKWNavigator.initialize(_peer);
-        let constraints:SKWMediaConstraints = SKWMediaConstraints()
-        _msLocal = SKWNavigator.getUserMedia(constraints) as SKWMediaStream
+        if let __peer = _peer{
+            SKWNavigator.initialize(__peer);
+            let constraints:SKWMediaConstraints = SKWMediaConstraints()
+            _msLocal = SKWNavigator.getUserMedia(constraints) as? SKWMediaStream
+            if let __msLocal = _msLocal{
+                localVideoView.addSrc(__msLocal, track: 0)
+            }
+        }
         
         //ローカルビデオメディアをセット
-        localVideoView.addSrc(_msLocal, track: 0)
         
         
         // MARK: 2.4.相手から着信
@@ -98,7 +102,7 @@ extension MediaConnectionViewController{
                 self._msRemote = msStream
                 DispatchQueue.main.async {
                     self.remoteVideoView.isHidden = false
-                    self.remoteVideoView.addSrc(self._msRemote, track: 0)
+                    self.remoteVideoView.addSrc(self._msRemote!, track: 0)
                 }
             }
         })
@@ -158,7 +162,7 @@ extension MediaConnectionViewController{
     //ビデオ通話を終了する
     func closeChat(){
         if let _ = _mediaConnection, let _ = _msRemote{
-            remoteVideoView .removeSrc(_msRemote, track: 0)
+            remoteVideoView .removeSrc(_msRemote!, track: 0)
             _msRemote?.close()
             _msRemote = nil
             _mediaConnection?.close()

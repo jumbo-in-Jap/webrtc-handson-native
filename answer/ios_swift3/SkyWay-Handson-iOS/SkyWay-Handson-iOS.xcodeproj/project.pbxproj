@@ -13,6 +13,7 @@
 		6FC012FF1F3ABA8800C19028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC012FE1F3ABA8800C19028 /* ViewController.swift */; };
 		6FC013011F3ABB3200C19028 /* MediaConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC013001F3ABB3200C19028 /* MediaConnectionViewController.swift */; };
 		6FC013031F3ABB3E00C19028 /* DataConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC013021F3ABB3E00C19028 /* DataConnectionViewController.swift */; };
+		6FCAF1A61F78CE7B00B8C025 /* SkyWay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAF1A31F78CE6C00B8C025 /* SkyWay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6FE248B71F3AB6EC0048087A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE248B61F3AB6EC0048087A /* AppDelegate.swift */; };
 		6FE248BC1F3AB6EC0048087A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE248BA1F3AB6EC0048087A /* Main.storyboard */; };
 		6FE248BE1F3AB6EC0048087A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE248BD1F3AB6EC0048087A /* Assets.xcassets */; };
@@ -38,6 +39,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6FCAF1A71F78CE7C00B8C025 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6FCAF1A61F78CE7B00B8C025 /* SkyWay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0A54701F04E034125DC05DFD /* libPods-SkyWay-Handson-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyWay-Handson-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3AEFF0BF129939CE50C161 /* Pods-SkyWay-Handson-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyWay-Handson-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +63,7 @@
 		6FC013001F3ABB3200C19028 /* MediaConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaConnectionViewController.swift; sourceTree = "<group>"; };
 		6FC013021F3ABB3E00C19028 /* DataConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConnectionViewController.swift; sourceTree = "<group>"; };
 		6FC013041F3ADC1400C19028 /* SkyWay-Handson-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkyWay-Handson-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		6FCAF1A31F78CE6C00B8C025 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
 		6FE248B31F3AB6EC0048087A /* SkyWay-Handson-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkyWay-Handson-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE248B61F3AB6EC0048087A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FE248BB1F3AB6EC0048087A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +158,7 @@
 		6FE248B51F3AB6EC0048087A /* SkyWay-Handson-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6FCAF1A31F78CE6C00B8C025 /* SkyWay.framework */,
 				6FE248B61F3AB6EC0048087A /* AppDelegate.swift */,
 				6F4E72491F3AE78400060428 /* Define.swift */,
 				6FC013041F3ADC1400C19028 /* SkyWay-Handson-iOS-Bridging-Header.h */,
@@ -194,12 +211,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FE248DB1F3AB6EC0048087A /* Build configuration list for PBXNativeTarget "SkyWay-Handson-iOS" */;
 			buildPhases = (
-				F9D46ABFF8A40267DDFA3AE2 /* 📦 Check Pods Manifest.lock */,
+				F9D46ABFF8A40267DDFA3AE2 /* [CP] Check Pods Manifest.lock */,
 				6FE248AF1F3AB6EC0048087A /* Sources */,
 				6FE248B01F3AB6EC0048087A /* Frameworks */,
 				6FE248B11F3AB6EC0048087A /* Resources */,
-				254C840CEB13307859F95B22 /* 📦 Embed Pods Frameworks */,
-				97DBDC46B924CBB0B03AC580 /* 📦 Copy Pods Resources */,
+				254C840CEB13307859F95B22 /* [CP] Embed Pods Frameworks */,
+				97DBDC46B924CBB0B03AC580 /* [CP] Copy Pods Resources */,
+				6FCAF1A71F78CE7C00B8C025 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,14 +340,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		254C840CEB13307859F95B22 /* 📦 Embed Pods Frameworks */ = {
+		254C840CEB13307859F95B22 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,14 +355,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		97DBDC46B924CBB0B03AC580 /* 📦 Copy Pods Resources */ = {
+		97DBDC46B924CBB0B03AC580 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,19 +370,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyWay-Handson-iOS/Pods-SkyWay-Handson-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9D46ABFF8A40267DDFA3AE2 /* 📦 Check Pods Manifest.lock */ = {
+		F9D46ABFF8A40267DDFA3AE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyWay-Handson-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,10 +556,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D3AEFF0BF129939CE50C161 /* Pods-SkyWay-Handson-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 23WT7ZRGJZ;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkyWay-Handson-iOS",
+				);
 				INFOPLIST_FILE = "SkyWay-Handson-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -554,10 +580,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E5678F8822BBD9715E57F7E /* Pods-SkyWay-Handson-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 23WT7ZRGJZ;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkyWay-Handson-iOS",
+				);
 				INFOPLIST_FILE = "SkyWay-Handson-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
